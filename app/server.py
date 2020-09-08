@@ -13,8 +13,8 @@ from torchvision import datasets, models, transforms
 import PIL
 
 #export_file_url = 'https://drive.google.com/file/d/16IsnIGNNlMTKCv_fpXZ7OYbfCJAcVEig/view?usp=sharing'
-export_file_url="https://drive.google.com/uc?export=download&id=16IsnIGNNlMTKCv_fpXZ7OYbfCJAcVEig"
-
+#export_file_url="https://drive.google.com/uc?export=download&id=16IsnIGNNlMTKCv_fpXZ7OYbfCJAcVEig"
+export_file_url="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=16IsnIGNNlMTKCv_fpXZ7OYbfCJAcVEig"
 export_file_name = 'full_model_export1.pkl'
 
 data_transforms_with_normalization = {
