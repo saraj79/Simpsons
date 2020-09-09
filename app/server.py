@@ -57,7 +57,7 @@ async def download_file(url, dest):
 async def setup_learner():
     await download_file(export_file_url, path / export_file_name)
     try:
-        learn = torch.load(path / export_file_name) 
+        learn = torch.load(path / export_file_name, map_location=torch.device('cpu')) 
         learn.eval()
         return learn
     except RuntimeError as e:
