@@ -5,7 +5,13 @@ body {
 .no-display {
     display: none;
 }
-
+.html { 
+  background: URL("simpsons1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .center {
     margin: auto;
     padding: 10px 50px;
