@@ -18,7 +18,8 @@ body {
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #663399;
+    font-family: Arial 
 }
 
 .content {
@@ -32,12 +33,14 @@ body {
 .upload-label {
     padding: 10px;
     font-size: 12px;
+    font-famlilt: Arial
 }
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 13px;
+    font-family: Arial
 }
 
 button.choose-file-button {
@@ -47,6 +50,7 @@ button.choose-file-button {
     background-color: #ffffff;
     border: solid 1px #7052CB;
     font-size: 13px;
+    font-family: Arial
     color: #7052CB;
 }
 
@@ -58,6 +62,7 @@ button.analyze-button {
     background-color: #7052CB;
     font-size: 13px;
     color: #ffffff;
+    font-family: Arial
 }
 
 button:focus {
